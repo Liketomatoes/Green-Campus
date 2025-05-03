@@ -1,0 +1,13 @@
+<p>Recommendation: {{ rec }}</p>
+<p>Estimated times (min):</p>
+<ul>
+    <li>Walk: {{ times['walk']|round(1) }}</li>
+    <li>Bike: {{ times['bike']|round(1) }}</li>
+    <li>Drive: {{ times['drive']|round(1) }}</li>
+</ul>
+
+{% if carpool_list %}
+    <p>Car‑pool matches: {{ carpool_list }}</p>
+{% endif %}
+
+<a href="/transport">Back</a>

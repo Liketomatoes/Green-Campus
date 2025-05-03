@@ -1,0 +1,17 @@
+commit 9a7f1ab Add transport recommendation logic
+Author: Bob <bob@example.com>
+Date:   2025-04-28
+
+    Implemented TransportService and CarpoolService
+
+commit 8e5c3d7 Add sensor observer pattern
+Author: Alice <alice@example.com>
+Date:   2025-04-27
+
+    Added ElectricSensor, WaterSensor, AlertManager; positive/negative tests
+
+commit 7b21f5e Initial commit – Flask skeleton & README
+Author: Carol <carol@example.com>
+Date:   2025-04-26
+
+    Project scaffolding, README draft
